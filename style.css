@@ -449,6 +449,33 @@ img {
   text-align: center;
 }
 
+.contact-card__info {
+  display: grid;
+  gap: 1rem;
+  margin: 1.75rem auto 0;
+  max-width: 420px;
+}
+
+.contact-card__info strong {
+  display: block;
+  color: var(--text);
+  margin-bottom: 0.35rem;
+  font-weight: 700;
+}
+
+.contact-card__info a {
+  color: var(--accent);
+  word-break: break-all;
+}
+
+.contact-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.9rem;
+  margin-top: 1.75rem;
+}
+
 .site-footer {
   padding: 1.5rem 0 2rem;
   color: var(--muted);
