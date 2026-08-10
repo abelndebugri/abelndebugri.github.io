@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Profile silhouette</title>
+  <desc id="desc">A stylized profile illustration placeholder for Abel Ndebugri.</desc>
+  <defs>
+    <linearGradient id="bg-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4361ee" />
+      <stop offset="100%" stop-color="#4cc9f0" />
+    </linearGradient>
+    <linearGradient id="highlight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.92" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" rx="120" fill="url(#bg-gradient)" />
+  <circle cx="400" cy="280" r="140" fill="#0f1c2f" stroke="rgba(255,255,255,0.12)" stroke-width="12" />
+  <path d="M210 660C210 540 310 460 400 460C490 460 590 540 590 660H210Z" fill="#0f1c2f" stroke="rgba(255,255,255,0.12)" stroke-width="12" />
+  <ellipse cx="400" cy="270" rx="180" ry="40" fill="url(#highlight)" opacity="0.38" />
+</svg>
